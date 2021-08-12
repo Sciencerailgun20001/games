@@ -2,7 +2,7 @@ import pygame,sys,random,os
 from pygame.locals import*
 pygame.init()
 canvas=pygame.display.set_mode((1200,720))
-pygame.display.set_caption('党史答题')
+pygame.display.set_caption('答题')
 a = pygame.image.load("images/封面.jpg")
 s = pygame.transform.smoothscale(a, (1200,720))#平滑缩放图片
 wt = pygame.image.load("images/1.png")
