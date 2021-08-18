@@ -54,8 +54,9 @@ def button():
                     if que <=5:
                         wt = pygame.image.load("images/"+str(que)+".png")
                     isRight = 'none'
-        
-            
+def ans():
+    for i in range(0,-1):
+        print(ans)
 
 def question():
     global state,que,isRight
